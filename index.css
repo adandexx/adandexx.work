@@ -63,6 +63,12 @@ img{
 	-2px -2px 10px white;
 }
 
+@media (max-width:600px) {
+	.header h1{
+		font-size: 30px;
+		margin-top: 20px;
+	}
+}
 
 .page-title{
 	font-size: 4rem;

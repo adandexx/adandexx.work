@@ -96,27 +96,25 @@ img{
 	}
 }
 
+.main-nav li{
+	padding: 10px;
+	margin-top: 25px;
+	margin-right: 15px;
+	width: 75px;
+}
 
-.main-nav a:hover{
+.main-nav a{
+	padding: 5px;
+	transition: all 0.3s;
+}
+
+.main-nav a:hover
+{
+	padding: 0px;
+	font-size: 20px;
+	margin: 0px;
 	color: red;
 }
-
-.main-nav li{
-	margin-right: 35px;
-	margin-top: 35px;
-}
-
-/*.big-bg{
-	background-size: cover;
-	background-position: center top;
-	background-repeat: no-repeat;
-	background-image: url(./img/bg.jpg);
-	min-height: 100vh;
-}*
-#home{
-	background-image: url(./img/bg.jpg);
-
-}*/
 
 #home .page-title{
 	text-transform: none;

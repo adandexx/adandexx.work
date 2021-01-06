@@ -22,8 +22,14 @@ ul{
 	list-style: none;
 }
 
+/*
 img{
 	width: 100%;
+}
+*/
+
+img{
+	width: 80%;
 }
 
 .menubtn{
@@ -157,6 +163,10 @@ img{
 	margin-top: 200px;
 }
 
+.works a{
+	color: olivedrab;
+}
+
 .works_description{
 	margin-top: 25px;
 	text-align: center;
@@ -172,6 +182,14 @@ img{
 	margin-left: 15px;
 	margin-right: 15px;
 	text-align: center;
+}
+
+.works img{
+	transition: all 0.2s;
+}
+
+.works img:hover{
+	transform:scale(1.02,1.02);
 }
 
 /*contact-------------------------------------------------------------------*/

@@ -34,6 +34,7 @@ img{
 .main-nav{
 	display: flex;
 	justify-content: right;
+	margin-right: 15px;
 }
 
 /*端末が650px以下の場合------------------------------------------------------------*/
@@ -105,7 +106,7 @@ img{
 
 .main-nav a{
 	padding: 5px;
-	transition: all 0.3s;
+	transition: all 0.1s;
 }
 
 .main-nav a:hover
@@ -113,7 +114,7 @@ img{
 	padding: 0px;
 	font-size: 20px;
 	margin: 0px;
-	color: red;
+	color: #e4c569;
 }
 
 #home .page-title{

@@ -172,6 +172,39 @@ img{
 	text-align: center;
 }
 
+.works ul{
+	margin-top: 25px;
+}
+
+/*端末が600px以下の場合*/
+@media (max-width:600px) {
+	.works img{
+		width: 100%;
+	}
+	.works li{
+		margin-bottom: 25px;
+	}
+}
+
+/*端末が600px以上の場合*/
+@media (min-width:600px) {
+	.works li{
+		display: flex;
+		justify-content: space-between;
+	}
+	.works a{
+		width: 48%;
+	}
+	.works img{
+		width: 100%;
+	}
+	.works p{
+		width: 48%;
+	}
+}
+
+
+/*
 .works_ul{
 	margin-top: 25px;
 	display: flex;
@@ -191,6 +224,7 @@ img{
 .works img:hover{
 	transform:scale(1.02,1.02);
 }
+*/
 
 /*contact-------------------------------------------------------------------*/
 

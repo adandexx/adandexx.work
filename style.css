@@ -171,7 +171,6 @@ img{
 
 .works_description{
 	margin-top: 25px;
-	text-align: center;
 }
 
 .works ul{
@@ -204,9 +203,13 @@ img{
 	.works img:hover{
 		transform:scale(1.02,1.02);
 	}
-	.works p{
+	.text{
 		width: 48%;
 	}
+}
+
+.works_description{
+	text-align: center;
 }
 
 

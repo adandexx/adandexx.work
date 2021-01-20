@@ -197,6 +197,10 @@ img{
 	}
 	.works img{
 		width: 100%;
+		transition: all 0.2s;
+	}
+	.works img:hover{
+		transform:scale(1.02,1.02);
 	}
 	.works p{
 		width: 48%;

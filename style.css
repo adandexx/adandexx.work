@@ -43,6 +43,10 @@ img{
 	margin-right: 20px;
 }
 
+.header{
+
+}
+
 /*端末が600px以下の場合------------------------------------------------------------*/
 
 @media (max-width:600px) {
@@ -69,15 +73,16 @@ img{
 }
 
 .header{
+	margin-top: 0px;
 	background-color: olivedrab;
 	display: flex;
 	justify-content: space-between;
 	height: 100px;
 	font-family: 'Open Sans', sans-serif;
-	box-shadow: 2px  2px 10px white ,
-	-2px  2px 10px white ,
-	 2px -2px 10px white ,
-	-2px -2px 10px white;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	z-index: 9999;
 }
 
 .header a{
@@ -108,18 +113,15 @@ img{
 	margin-top: 25px;
 	margin-right: 20px;
 	width: 50px;
-}
-
-.main-nav a{
-	padding: 5px;
 	transition: all 0.1s;
 }
 
-.main-nav a:hover
-{
-	padding: 0px;
+.main-nav a{
+	transition: 0.1s;
+}
+
+.main-nav a:hover{
 	font-size: 20px;
-	margin: 0px;
 	color: #e4c569;
 }
 
@@ -149,7 +151,7 @@ img{
 /*about-------------------------------------------------------------*/
 
 .about{
-	margin-top: 200px;
+	margin-top: 400px;
 }
 
 .about p{

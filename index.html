@@ -25,8 +25,25 @@
     </header>
     
     <div class="content">
+        <div class="bg">
+            <script src="https://cdn.jsdelivr.net/npm/bubbly-bg@1.0.0/dist/bubbly-bg.js"></script>
+            <script>bubbly();</script>	
+            <script>
+                bubbly({
+                blur:0, //ぼかし
+                colorStart: '#ffffff', //背景グラデーション始まりの色
+                colorStop: '#ffffff', //背景グラデーション終わりの色
+                radiusFunc:() => 5 + Math.random() * 5, //大きさ
+                velocityFunc:() => Math.random() * 0.2, //速さ
+                bubbleFunc:() => `hsla(80, 60%, 35%, 0.2)`, //色彩(hsla)
+                bubbles:15, //個数
+                compose: 'darker', //色ブレンド
+                });
+            </script>
+        </div>
+
         <div class="about">
-            <a id="about"></a>
+            <a class="link" id="about"></a>
             <h1>ABOUT</h1>
             <hr color="olivedrab">
             <p>地方の大学で情報系を学んでいます。時間のある時は、自身のコーディング技術向上をねらいとしてHTMLやCSS、MySQLなどの学習をしています。まとまった作品ができたらこのサイトに載せていく予定です。</p>
